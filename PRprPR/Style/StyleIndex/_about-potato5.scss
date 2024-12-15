@@ -1,0 +1,26 @@
+.about-potato5 {
+  border-top: 0.3em solid $color2;
+  border-left: 0.7em solid $color2;
+  border-right: 0.7em solid $color2;
+  padding: 2em;
+
+  &__content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    &--image {
+      width: 400px;
+      height: 350px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+}

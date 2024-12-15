@@ -1,0 +1,39 @@
+.about-potato2 {
+  border-top: 0.3em solid $color2;
+  border-left: 0.7em solid $color2;
+  border-right: 0.7em solid $color2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+
+  &__content {
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+
+  &__content--image {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+  h1 {
+    margin-bottom: 1em;
+  }
+}

@@ -1,0 +1,33 @@
+.header {
+  width: 100vw;
+  background-color: $color2;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  top: 0px;
+
+  &__menu {
+    margin-right: 2em;
+    width: 20vw;
+    height: 10vh;
+    border: 0.7em solid $color2;
+    background-color: $color1;
+    display: flex;
+    flex-wrap: wrap;
+    @include center;
+
+    background-color: $color1;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.2s, transform 0.1s;
+  }
+
+  &:active {
+    background-color: $color1;
+  }
+}

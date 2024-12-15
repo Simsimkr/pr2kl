@@ -1,0 +1,30 @@
+.gallery {
+    padding: 20px;
+    text-align: center;
+
+    .gallery-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+
+        .gallery-item {
+            flex: 1 1 calc(20% - 15px);
+            border-radius: $border-radius;
+            overflow: hidden;
+            box-shadow: 0 4px 10px $shadow-color;
+            transition: transform 0.3s, box-shadow 0.3s;
+
+            &:hover {
+                transform: scale(1.05);
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+            }
+
+            img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+        }
+    }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="./Style/Img/log.ico" />
+
+    <link rel="stylesheet" href="./Style/style_index.css" />
+    <script src="./Scritps/values.js" defer></script>
+    <script src="./Scritps/applicationMenu.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__menu" id="menu">
+        <div></div>
+        <h1>Menu</h1>
+        <div></div>
+      </div>
+    </header>
+
+    <section class="shop">
+      <h2>Sklep</h2>
+      <div class="products">
+        <div class="product">
+          <img src="./Style/Img/img4.jpg" alt="Produkt 1" />
+          <h3>potato 1</h3>
+
+          <button class="add-to-potatot" data-product="Produkt 1">
+            Dodaj do koszyka
+          </button>
+        </div>
+
+        <div class="product">
+          <img src="./Style/Img/img4.jpg" alt="Produkt 2" />
+          <h3>potato 2</h3>
+
+          <button class="add-to-potatot" data-product="Produkt 2">
+            Dodaj do koszyka
+          </button>
+        </div>
+
+        <div class="product">
+          <img src="./Style/Img/img4.jpg" alt="Produkt 3" />
+          <h3>potato 3</h3>
+
+          <button class="add-to-potatot" data-product="Produkt 3">
+            Dodaj do koszyka
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <script src="./Scritps/script.js"></script>
+
+    <header class="header__menu--open" id="menuContainer">
+      <ul>
+        <li><a href="index.html">Home page</a></li>
+        <li><a href="galery.html">Galery</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="calculator.html">Calculator</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li>
+          <button class="header__menu--close__list" id="menu--close">
+            Close
+          </button>
+        </li>
+      </ul>
+    </header>
+  </body>
+</html>

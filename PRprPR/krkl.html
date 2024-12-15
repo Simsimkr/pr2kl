@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="./Style/StyleIndex/_about-krkulko.css" />
+    <script src="./Scritps/krkl.js" defer></script>
+    <link rel="stylesheet" href="./Style/style_index.css" />
+    <script src="./Scritps/values.js" defer></script>
+    <script src="./Scritps/applicationMenu.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__menu" id="menu">
+        <div></div>
+        <h1>Menu</h1>
+        <div></div>
+      </div>
+    </header>
+
+    <header class="header__menu--open" id="menuContainer">
+      <ul>
+        <li>
+          <a href="index.html">Home Page</a>
+        </li>
+        <li><a href="galery.html">Galery</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="calculator.html">Calculator</a></li>
+        <li><a href="krkl.html">Tic-Tac-Toe</a></li>
+        <li>
+          <button class="header__menu--close__list" id="menu--close">
+            Close
+          </button>
+        </li>
+      </ul>
+    </header>
+    <h1>Tic-Tac-Toe</h1>
+    <div class="options" id="options">
+      <div class="button-group" id="symbolGroup">
+        <button id="toggleSymbol">Switch Symbol: X</button>
+      </div>
+      <div class="button-group">
+        <button id="toggleOpponent">Opponent: Bot</button>
+      </div>
+      <button id="startGame">Start Game</button>
+    </div>
+    <div class="board" id="board"></div>
+    <div id="result"></div>
+    <button id="reset" style="display: none">Restart Game</button>
+  </body>
+</html>

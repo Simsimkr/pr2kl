@@ -1,0 +1,43 @@
+.shop {
+    padding: 20px;
+    text-align: center;
+
+    .products {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        
+        .product {
+            border: 1px solid $color2;
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            h3 {
+                color: $color2;
+            }
+
+            p {
+                color: $color2;
+            }
+
+            button {
+                background-color: $color2;
+                color: $color3;
+                padding: 10px;
+                border: none;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: $color1;
+                }
+            }
+        }
+    }
+}
